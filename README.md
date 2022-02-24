@@ -1,7 +1,7 @@
 # Fine-grained Localisation Models by Image Matching
 
 ## About the project
-In this work, we introduce several approaches to identify fine-grained locations from 2D images. The methods firstly shortlist the candidate images based on the similarity of the extracted features from pre-trained Vision Transformer (ViT) [1] to speed up the process. After then, they select the best match image sharing the most number of confident matching points from pre-trained LoFTR [2]. The geographic information of the best image represents the input image location. Different approaches involve different techniques such as the image transformation or the result adjustment for better accuracy. We evaluate the performance of the different methods through the experiments and show they can plausibly recognise the positions with unseen images.
+In this group work, we introduce several approaches to identify fine-grained locations from 2D images. The methods firstly shortlist the candidate images based on the similarity of the extracted features from pre-trained Vision Transformer (ViT) [1] to speed up the process. After then, they select the best match image sharing the most number of confident matching points from pre-trained LoFTR [2]. The geographic information of the best image represents the input image location. Different approaches involve different techniques such as the image transformation or the result adjustment for better accuracy. We evaluate the performance of the different methods through the experiments and show they can plausibly recognise the positions with unseen images.
 
 ## Dataset (not provided in this repo)
 The total number of 7,500 training images and 1,200 test images are used. Each of which are taken at an art gallery in 680 (W) x 490 (H) pixels. Training images have geographic information, x and y, values from a mapping algorithm. For simplicity, we assume there is no radial distortion and ignore other artefacts and distortion on the images. In order to select the best model, we compare the performance on initially split validation dataset that contains 750 images from the original training images. 
@@ -56,7 +56,7 @@ OpenCV 4.5.2<br>
 
 ## Authors
 Chen-An Fan @derek20F <br>
-Hee Won Kim
+Hee Won Kim @Heewon-Hailey 
 
 -------
 
