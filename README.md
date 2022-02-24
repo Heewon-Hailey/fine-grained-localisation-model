@@ -21,16 +21,16 @@ Mean Absolute Error (MAE) between the predicted and the true geographic coordina
 1) Shortlist top 10 similar images in the train set
 2) Count the number of good points (over 0.7 confidence) from LoFTR, select one image with the most counts
 3) Randomly select three points from the confident points and generate affine matrix. There is no output when it fails to find the matrix elements
-4) Train a linear regression (default setting) with affine elements (features) and difference between the true location and the selected image location
+4) Train a linear regression (w/ default setting) with affine elements (as features) and difference between the true location and the selected image location
 
 **D. Camera Transformation - Essential Matrix**
 1) Shortlist top 10 similar images in the train set
-2) Find the essential matrices between every 10 pairs with LoFTR detected matching points (input)
+2) Find the essential matrices between every 10 pairs with LoFTR detected matching points 
 3) Select one image with the most inlier points from its corresponding essential matrix
 
 **E. Camera Transformation - Camera Pose**
 1) Shortlist top 10 similar images in the train set
-2) Find the essential matrices between every 10 pairs with LoFTR detected matching points (input)
+2) Find the essential matrices between every 10 pairs with LoFTR detected matching points 
 3) Decompose the essential matrices into the rotation and translation matrices
 4) Select one image with the most points from LoFTR that can be described by the two transformations (rotation and translation)
 
