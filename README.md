@@ -39,7 +39,7 @@ Mean Absolute Error (MAE) between the predicted and the true geographic coordina
 | ---------- | - | - | - | - | - |
 | MAE (test)| 7.01 | 6.14 | 5.86 | 4.35 | 4.37 |
 
-Those approaches show a competitive performance on Kaggle Competition
+Those approaches achieve a competitive performance on Kaggle Competition. The best model ranks on 11th out of 215 teams.
 
 ## Version
 Torch 1.7.1<br>
@@ -54,6 +54,9 @@ OpenCV 4.5.2<br>
 [1] A. Dosovitskiy et al., ”An image is worth 16x16 words: Transformers for image recognition at scale,” arXiv preprint arXiv:2010.11929, 2020. <br>
 [2] J. Sun, Z. Shen, Y. Wang, H. Bao, and X. Zhou, ”LoFTR: Detector free local feature matching with transformers,” in Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2021, pp. 8922-8931
 
+## Authors
+Chen-An Fan @derek20F <br>
+Hee Won Kim
 
 -------
 
