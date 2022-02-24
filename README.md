@@ -39,7 +39,7 @@ Mean Absolute Error (MAE) between the predicted and the true geographic coordina
 | ---------- | - | - | - | - | - |
 | MAE (test)| 7.01 | 6.14 | 5.86 | 4.35 | 4.37 |
 
-Those approaches achieve a competitive performance on Kaggle Competition. The best model ranks on 11th out of 215 teams.
+Those approaches achieve a competitive performance on Kaggle Competition. The best model ranks 11th out of 215 teams.
 
 ## Version
 Torch 1.7.1<br>
